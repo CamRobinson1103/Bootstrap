@@ -4,7 +4,7 @@
 class Cube : public Mesh
 {
 public:
-	Cube() : Mesh() {}
+	Cube() {}
 	~Cube() {}
 
 	Vertex* generateVertices(unsigned int& vertexCount, unsigned int& triCount) override;
@@ -13,9 +13,11 @@ public:
 	void setColor(glm::vec4 color) { m_color = color; }
 
 private:
-	void initializeCorner(Vertex* vertices, int vertexCount, int index, glm::vec3 position);
+	glm::vec4 m_color = glm::vec4(1.0f);
 
 private:
-	glm::vec4 m_color = glm::vec4(1.0f);
+	void initializeCorner(Vertex* vertices, int vertexCount, int index, glm::vec3 position);
+
 };
+
 
