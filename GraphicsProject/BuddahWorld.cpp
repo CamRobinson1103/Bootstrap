@@ -25,9 +25,9 @@ void BuddhaWorld::onStart()
 	m_buddha->getTransform()->setScale(glm::vec3(0.2f));
 	add(m_buddha);
 
-	/*m_cube = new Cube();
-	m_cube->setColor(glm::vec4(1.8f, 2.1f, 6.4f, 1.0f));
-	add(m_cube);*/
+	m_cube = new Cube();
+	m_cube->setColor(glm::vec4(0.6f, 0.2f, 0.4f, 1.0f));
+	add(m_cube);
 }
 
 

@@ -17,4 +17,3 @@ private:
 	OBJMesh* m_buddha = nullptr;
 	Cube* m_cube = nullptr;
 };
-

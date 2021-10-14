@@ -20,10 +20,8 @@ Cube::Vertex* Cube::generateVertices(unsigned int& vertexCount, unsigned int& tr
 	return nullptr;
 }
 
-void Cube::initializeCorner(Vertex* vertices, unsigned int vertexCount, int index, glm::vec3 coordinates)
-{
-	for (int i = index; i < vertexCount; index += 8)
-	{
+void Cube::initializeCorner(Vertex* vertices, int vertexCount, int index, glm::vec3 coordinates) {
+	for (int i = index; i < vertexCount; i += 8) {
 		vertices[i].position = glm::vec4(coordinates * 0.5f, 1.0f);
 		vertices[i].normal = glm::vec4(coordinates, 0.0f);
 		vertices[i].color = m_color;

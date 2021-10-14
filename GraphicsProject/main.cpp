@@ -2,7 +2,7 @@
 #include "BuddahWorld.h"
 
 int main() {
-	Engine* engine = new Engine(1280, 720, "Graphics");
+	Engine* engine = new Engine(1280, 720, "BUddhaWorld");
 
 	BuddhaWorld* world = new BuddhaWorld();
 
