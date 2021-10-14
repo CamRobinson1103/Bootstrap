@@ -8,16 +8,16 @@ Cube::Vertex* Cube::generateVertices(unsigned int& vertexCount, unsigned int& tr
 
 	vertices = new Vertex[vertexCount];
 
-	initializeCorner(vertices, vertexCount, 0, {-1.0f,  1.0f, -1.0 });//A
-	initializeCorner(vertices, vertexCount, 1, { 1.0f,  1.0f, 1.0f });//B
-	initializeCorner(vertices, vertexCount, 2, { 1.0f, -1.0f, -1.0 });//C
-	initializeCorner(vertices, vertexCount, 3, {-1.0f, -1.0f,  1.0 });//D
-	initializeCorner(vertices, vertexCount, 4, { 1.0f,  1.0f, -1.0 });//E
-	initializeCorner(vertices, vertexCount, 5, {-1.0f,  1.0f,  1.0 });//F
-	initializeCorner(vertices, vertexCount, 6, {-1.0f, -1.0f, -1.0 });//G
-	initializeCorner(vertices, vertexCount, 7, { 1.0f, -1.0f,  1.0 });//H
+	initializeCorner(vertices, vertexCount, 0, { -1.0f,  1.0f, -1.0f }); //A
+	initializeCorner(vertices, vertexCount, 1, { 1.0f,  1.0f,  1.0f }); //B
+	initializeCorner(vertices, vertexCount, 2, { 1.0f, -1.0f, -1.0f }); //C
+	initializeCorner(vertices, vertexCount, 3, { -1.0f, -1.0f,  1.0f }); //D
+	initializeCorner(vertices, vertexCount, 4, { 1.0f,  1.0f, -1.0f }); //E
+	initializeCorner(vertices, vertexCount, 5, { -1.0f,  1.0f,  1.0f }); //F
+	initializeCorner(vertices, vertexCount, 6, { -1.0f, -1.0f, -1.0f }); //G
+	initializeCorner(vertices, vertexCount, 7, { 1.0f, -1.0f,  1.0f }); //H
 
-	return nullptr;
+	return vertices;
 }
 
 void Cube::initializeCorner(Vertex* vertices, int vertexCount, int index, glm::vec3 coordinates) {
