@@ -19,5 +19,3 @@ private:
 	void initializeCorner(Vertex* vertices, int vertexCount, int index, glm::vec3 position);
 
 };
-
-

@@ -15,4 +15,3 @@ public:
 private:
 	glm::vec4 m_color = glm::vec4(1.0f);
 };
-

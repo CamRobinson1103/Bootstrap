@@ -19,6 +19,9 @@ void BuddhaWorld::onStart()
 	m_light->setDirection({ -40.0f, -100.0f, 0.0f });
 	add(m_light);
 
+	//fjsofjtejogd;
+
+
 	m_buddha = new OBJMesh();
 	m_buddha->load("Buddha.obj");
 	m_buddha->getTransform()->setPosition({ 5.0f, 0.0f, 0.0f });

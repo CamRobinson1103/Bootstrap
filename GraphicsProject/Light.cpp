@@ -23,6 +23,7 @@ void Light::onDraw()
 	int lightAmbient = glGetUniformLocation(program, "iAmbient");
 	int lightDiffuse = glGetUniformLocation(program, "iDiffuse");
 	int lightSpecular = glGetUniformLocation(program, "iSpecular");
+	
 
 	if (lightDirection >= 0) {
 		glm::vec3 direction = getDirection();
