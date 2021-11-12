@@ -19,6 +19,15 @@ void BuddhaWorld::onStart()
 	m_light->setDirection({ -40.0f, -100.0f, 0.0f });
 	add(m_light);
 
+	m_light2 = new Light(
+		{ 2.0f, 2.0f, 2.0f },
+		{ 1.5f, 1.5f, 1.5f, 2.0f },
+		{ 2.0f, 2.0f, 2.0f, 2.0f },
+		{ 2.0f, 2.0f, 2.0f, 2.0f }
+		);
+	m_light2->setDirection({ -20.0f, -50.0f, 0.0f });
+	add(m_light2);
+
 
 	m_buddha = new OBJMesh();
 	m_buddha->load("Buddha.obj");
