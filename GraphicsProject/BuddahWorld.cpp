@@ -20,7 +20,7 @@ void BuddhaWorld::onStart()
 	add(m_light);
 
 	m_light2 = new Light(
-		{ 2.0f, 2.0f, 2.0f },
+		{ 5.0f, 5.0f, 5.0f },
 		{ 1.5f, 1.5f, 1.5f, 2.0f },
 		{ 2.0f, 2.0f, 2.0f, 2.0f },
 		{ 2.0f, 2.0f, 2.0f, 2.0f }
