@@ -1,5 +1,5 @@
 #include "Engine.h"
-#include "BuddahWorld.h"
+#include "BuddhaWorld.h"
 
 int main() {
 	Engine* engine = new Engine(1280, 720, "BuddhaWorld");

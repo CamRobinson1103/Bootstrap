@@ -168,7 +168,7 @@
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BuddahWorld.h" />
+    <ClInclude Include="BuddhaWorld.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Cube.h" />
     <ClInclude Include="Engine.h" />

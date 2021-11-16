@@ -107,10 +107,10 @@
     <ClInclude Include="Material.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BuddahWorld.h">
+    <ClInclude Include="Cube.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cube.h">
+    <ClInclude Include="BuddhaWorld.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

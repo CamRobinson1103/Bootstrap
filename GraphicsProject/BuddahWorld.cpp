@@ -1,4 +1,4 @@
-#include "BuddahWorld.h"
+#include "BuddhaWorld.h"
 
 void BuddhaWorld::onStart()
 {
