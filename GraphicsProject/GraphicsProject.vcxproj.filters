@@ -63,6 +63,9 @@
     <ClCompile Include="Cube.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -113,6 +116,9 @@
     <ClInclude Include="BuddhaWorld.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="Buddha.obj">
@@ -151,6 +157,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="earth_cloud_trans.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="circle.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
